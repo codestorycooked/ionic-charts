@@ -1,0 +1,34 @@
+<ion-side-menus enable-menu-with-back-views="false">
+    <ion-side-menu-content>
+        <ion-nav-bar class="bar-assertive">
+            <ion-nav-back-button>
+            </ion-nav-back-button>
+            <ion-nav-buttons side="left">
+                <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+            </ion-nav-buttons>
+        </ion-nav-bar>
+        <ion-nav-view name="menuContent"></ion-nav-view>
+    </ion-side-menu-content>
+    <ion-side-menu side="left">
+       
+        <ion-content>
+            <h1 class="text-center padding">Welcome Angular Js Charts</h1>
+            <p class="text-center padding">Optimum Charting Library for Apps</p>
+            <ion-list>
+                <ion-item menu-close href="#/app/lineChart">
+                    Line Chart
+                </ion-item>
+                <ion-item menu-close href="#/app/radarChart">
+                    Radar Chart
+                </ion-item>
+                <ion-item menu-close href="#/app/piechart">
+                    Pie Chart
+                </ion-item>
+
+            </ion-list>
+        </ion-content>
+    </ion-side-menu>
+    <ion-footer-bar>
+        <a class="text-center" href="http://codestory.in">www.codestory.in</a>
+    </ion-footer-bar>
+</ion-side-menus>

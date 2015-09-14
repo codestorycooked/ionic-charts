@@ -1,0 +1,12 @@
+﻿<ion-view title="Pie Chart">
+    <ion-content class="padding" ng-controller="PieChartController">
+        <h3 class="text-center">Pie chart</h3>
+        <br />
+        <canvas id="radar" class="chart chart-pie"
+                chart-data="chartData" chart-labels="labels"></canvas> 
+
+        <canvas id="base" class="chart-base" chart-type="type"
+                chart-data="chartData" chart-labels="labels" chart-legend="true"></canvas> 
+
+    </ion-content>
+</ion-view>
